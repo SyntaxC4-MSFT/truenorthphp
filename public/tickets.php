@@ -1,16 +1,24 @@
-<?php
-$page = 'tickets';
-?>
-<?php include '../header.php'; ?>
-      <div class="content-wrapper">
-         <div class="container">
-            <div class="row">
-               <div class="span12">
-                  <div class="page-header">
-                     <h1>Buy Tickets</h1>
-                  </div>
-               </div>
-               <div class="span12">
+<!doctype html>
+<html class="no-js" lang="en">
+<?php include '../page_header.php' ?>
+<?php include '../view.php' ?>
+	<body id="top">
+		<!--[if lt IE 9]>
+			<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+		<![endif]-->
+<?php include '../navigation.php' ?>
+<div class="key-visual">
+
+    <h1 class="page-title"><span>Tickets</span></h1>
+
+</div>
+<?php //include '../logo.php' ?>
+</header>
+<main role="main" class="content">
+               <div class="section-default">
+
+                  <h2 class="section-title">Buy Tickets</h2>
+
                   <p>There are only 250 tickets available for True North PHP, so buy your tickets early before they sell out.</p>
 <?php if ($view->ticket->getSaleState() === Ticket::SOON) : ?>
                   <p>Early bird tickets are on sale soon.</p>
@@ -22,20 +30,16 @@ $page = 'tickets';
                   <p>Tickets sales have ended. See you next year.</p>
 <?php endif; ?>
                   <p>
-                      <ul>
-                          <li>Conference/Early Bird ticket gives you access to tutorial day on Thursday, November 5 plus all the sessions and events on Friday November 6 and Saturday November 7.</li>
-                      </ul>
+                    Conference/Early Bird ticket gives you access to tutorial day on Thursday, November 3 plus all the sessions and events on Friday November 4 and Saturday November 5.
                   </p>
-                  <p style="color:red; font-weight:bold">** Please note that all ticket sales are final and we are unable to offer refunds.</p>
+                  <p class="highlight"><strong>** Please note that all ticket sales are final and we are unable to offer refunds.</strong></p>
                </div>
-               <div class="span12">
-                  <hr>
-               </div>
+				<hr>
 <?php if ($view->ticket->getSaleState() === Ticket::EARLY
           || $view->ticket->getSaleState() === Ticket::OPEN) : ?>
-               <div class="span12" >
+               <div class="section-default">
                   <iframe
-                     src="//eventbrite.ca/tickets-external?eid=18356486746&ref=etckt"
+                     src="//eventbrite.ca/tickets-external?eid=26990188380&ref=etckt"
                      frameborder="0"
                      height="352"
                      width="100%"

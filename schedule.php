@@ -1,5 +1,8 @@
-<div class="day_number">Day #1 (Tutorial Day) - Thursday, November 5, 2015</div>
-<table class="table schedule_day tutorial_day">
+<section class="section-default">
+    <h2 class="section-title">Day #1 (Tutorial Day)</h2>
+    <p class="subline">Thursday, November 3, 2016</p>
+<div class="schedule">
+<table>
     <thead>
         <tr>
             <th>Time</th>
@@ -8,342 +11,367 @@
         </tr>
     </thead>
     <tbody>
-        <tr class="schedule_slot">
-            <th>08:00</th>
+        <tr>
+            <td>08:00</td>
             <td colspan="2">
-                <div class="warning">
-                    Registration - Pastries, Beverages and Coffee Available
-                </div>
+                <span class="schedule__item">
+                    Registration - pastries, beverages and coffee available
+                </span>
             </td>
         </tr>
-        <tr class="schedule_slot">
-            <th>09:30</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=managing_dependencies_with_composer">Managing Dependencies with Composer</a>
-                </div>
-                <div class="talk_speaker">Beau Simensen</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=deploy_anything__control_everything__scale_effortlessly__deis">Deploy Anything, Control Everything, Scale Effortlessly: Deis</a>
-                </div>
-                <div class="talk_speaker">Davey Shafik</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>12:30</th>
-            <td colspan="2"><div class="talk_title">Lunch</div></td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>13:30<br>to<br>16:30</th>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=zero_to_api_with_lumen">Zero to API with Lumen</a>
-                </div>
-                <div class="talk_speaker">Amanda Folson</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=is_your_api_misbehaving_">Is Your API Misbehaving?</a>
-                </div>
-                <div class="talk_speaker">Keith Casey</div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="day_number">Day #2 - Friday, November 6, 2015</div>
-<table class="table schedule_day">
-    <thead>
         <tr>
-            <th>Time</th>
-            <th>Room 1</th>
-            <th>Room 2</th>
-            <th>Room 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="schedule_slot">
-            <th>08:00</th>
-            <td colspan="3">
-                <div class="warning">
-                    Registration - Pastries, Beverages and Coffee Available
-                </div>
+            <td>09:00-12:00</td>
+            <td data-label="Room 1">
+                <span class="schedule__item">
+                    Containerizing PHP Applications
+                    <a href="speakers.php#joshbutts">Josh Butts</a>
+                </span>
+            </td>
+            <td data-label="Room 2">
+                <span class="schedule__item">
+                    PHP Extensions Tutorial
+                    <a href="speakers.php#elizabethsmith">Elizabeth Smith</a>
+                </span>
             </td>
         </tr>
-        <tr class="schedule_slot">
-            <th>9:30</th>
-            <td class="error" colspan="3">
-                <div class="talk_title keynote">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=opening_keynote">Opening Keynote</a>
-                </div>
-                <div class="talk_speaker">Christina Truong</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>10:40</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=freshbooks_spaghetti_to_soa">Freshbooks spaghetti to SOA</a>
-                </div>
-                <div class="talk_speaker">Mark Story</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=getting_to_know_azure_app_service_for_php_developers">Getting to know Azure App Service for PHP Developers</a>
-                </div>
-                <div class="talk_speaker">Cory Fowler</div>
-            </td>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=driving_quality_with_phpspec">Driving Quality with PhpSpec</a>
-                </div>
-                <div class="talk_speaker">Ciaran McNulty</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>11:40</th>
-            <td colspan="3"><div class="talk_title">Lunch</div></td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>12:50</th>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=owasp_top_10">OWASP Top 10</a>
-                </div>
-                <div class="talk_speaker">Ilia Alshanetsky</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=puli__php_s_next_package_revolution">Puli: PHP's Next Package Revolution</a>
-                </div>
-                <div class="talk_speaker">Bernhard Schussek</div>
-            </td>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=if_you_build_it__they_won_t_come">If You Build It, They Won't Come</a>
-                </div>
-                <div class="talk_speaker">Amanda Folson</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>14:00</th>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=stop_making_the_user_wait__job_queues_to_the_rescue">Stop making the user wait! Job queues to the rescue</a>
-                </div>
-                <div class="talk_speaker">Mariano Iglesias</div>
-            </td>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=elm__a_new_approach_to_building_the_front_end">Elm: A new approach to building the front end</a>
-                </div>
-                <div class="talk_speaker">Joel Clermont</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=diving_deep_into_javascript_functions">Diving Deep into JavaScript Functions</a>
-                </div>
-                <div class="talk_speaker">Colin DeCarlo</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>15:10</th>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="dont-ask.php">PHP Gameshow</a>
-                </div>
-                <div class="talk_speaker">Don't ask, just show up</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=mysql_5_7___json">MySQL 5.7 + JSON</a>
-                </div>
-                <div class="talk_speaker">Morgan Tocker</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=voodoo_php">Voodoo PHP</a>
-                </div>
-                <div class="talk_speaker">Marco Pivetta</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>16:20<br>to<br>17:20</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=an_open_source_story__bringing_sculpin_to_life">An Open Source Story: Bringing Sculpin to Life</a>
-                </div>
-                <div class="talk_speaker">Beau Simensen</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=the_neuroscience___psychology_behind_open_source_communities">The Neuroscience & Psychology Behind Open Source Communities</a>
-                </div>
-                <div class="talk_speaker">Elizabeth Naramore Barron</div>
-            </td>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=reduce_the_grump__a_tech_writing_primer_for_reluctant_developers">Reduce the Grump: A Tech Writing Primer for Reluctant Developers</a>
-                </div>
-                <div class="talk_speaker">Allison Moore</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>18:00<br>to<br>22:00</th>
-            <td colspan="3">
-                <div class="hackathon">
-                    Microsoft Azure Hackathon
-                </div>
-            </td>
-        </tr>
-        <tr><td colspan="4"></td></tr>
-    </tbody>
-</table>
-
-<div class="day_number">Day #3 - Saturday, November 7, 2015</div>
-<table class="table schedule_day">
-    <thead>
         <tr>
-            <th>Time</th>
-            <th>Room 1</th>
-            <th>Room 2</th>
-            <th>Room 3</th>
+            <td>12:00-13:00</td>
+            <td colspan="2"><span class="schedule__item">Lunch</span></td>
         </tr>
-    </thead>
-    <tbody>
-        <tr class="schedule_slot">
-            <th>09:50</th>
-            <td class="error" colspan="3">
-                <div class="talk_title keynote">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=stronger_than_fear__mental_health_in_the_developer_community">Stronger Than Fear: Mental Health in the Developer Community</a>
-                </div>
-                <div class="talk_speaker">Edward Finkler</div>
+        <tr>
+            <td>13:00-16:00</td>
+            <td data-label="Room 1">
+                <span class="schedule__item">
+                    Let your tests drive your development
+                    <a href="speakers.php#michaelangelovandam">Michaelangelo Van Dam</a>
+                </span>
             </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>11:00</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=couchbase_and_nosql_use_cases">Couchbase and NoSQL Use-cases</a>
-                </div>
-                <div class="talk_speaker">Don Pinto</div>
-            </td>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=action_domain_responder__a_web_specific_refinement_of_mvc">Action-Domain-Responder: A Web-Specific Refinement of MVC</a>
-                </div>
-                <div class="talk_speaker">Paul Jones</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=building_great_apis">Building Great APIs</a>
-                </div>
-                <div class="talk_speaker">Ben Ramsey</div>
+            <td data-label="Room 2">
+                <span class="schedule__item">
+                    Introduction to Event Sourcing and CQRS
+                    <a href="speakers.php#beausimensen">Beau Simensen</a>
+                </span>
             </td>
         </tr>
-        <tr class="schedule_slot">
-            <th>12:00</th>
-            <td colspan="3"><div class="talk_title">Lunch</div></td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>13:00</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=drinking_from_the_firehose___real_time_metrics">Drinking from the Firehose - Real-time Metrics</a>
-                </div>
-                <div class="talk_speaker">Samantha Qui&ntilde;ones</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=property_based_testing__work_smarter__not_harder_">Property-based Testing: Work Smarter, Not Harder!</a>
-                </div>
-                <div class="talk_speaker">Joel Clermont</div>
-            </td>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=building_your_api_utility_belt">Building your API Utility Belt</a>
-                </div>
-                <div class="talk_speaker">Keith Casey</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>14:10</th>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=enough_about_classes__let_s_talk_templates">Enough about classes, let's talk templates</a>
-                </div>
-                <div class="talk_speaker">Jonathan Reinink</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=debugging__past__present_and_future">Debugging: past, present and future</a>
-                </div>
-                <div class="talk_speaker">Derick Rethans</div>
-            </td>
-                     <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=doctrine_orm_good_practices_and_tricks">Doctrine ORM Good Practices and Tricks</a>
-                </div>
-                <div class="talk_speaker">Marco Pivetta</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>15:20</th>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=applying_the_rules_of_simple_design">Applying The Rules of Simple Design</a>
-                </div>
-                <div class="talk_speaker">Adam Wathan</div>
-            </td>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=payment_processing__you_are_doing_it_wrong">Payment processing: you are DOING IT WRONG</a>
-                </div>
-                <div class="talk_speaker">Mariano Iglesias</div>
-            </td>
-            <td class="success">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=why_i_love_hate_angularjs">Why I love/hate AngularJS</a>
-                </div>
-                <div class="talk_speaker">Chris Boden</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>16:30</th>
-            <td class="info">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=docker__contain_all_the_things">Docker: Contain All The Things</a>
-                </div>
-                <div class="talk_speaker">Davey Shafik</div>
-            </td>
-            <td class="warning">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=adventures_in_symfony2___building_an_mmo_rpg">Adventures in Symfony2 - Building an MMO-RPG</a>
-                </div>
-                <div class="talk_speaker">Margaret Staples</div>
-            </td>
-            <td class="error">
-                <div class="talk_title">
-                    <a class="fancybox fancybox.iframe" href="viewtalk.php?name=promises_and_generators_in_php_5_5">Promises and Generators in PHP 5.5</a>
-                </div>
-                <div class="talk_speaker">Evert Pot</div>
-            </td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>17:40<br>to<br>18:10</th>
-            <td class="success" colspan="3"><div class="talk_title"><a class="fancybox fancybox.iframe" href="viewtalk.php?name=closing_keynote">Closing Keynote</a></div><div class="talk_speaker">Chris Hartjes</div></td>
-        </tr>
-        <tr class="schedule_slot">
-            <th>18:30<br>to<br>close</th>
-            <td colspan="3">
-                <div class="hackathon">
-                    True North PHP Social<br>
-                    at <a href="http://www.fourpointsmississaugameadowvale.com/mississauga-restaurant">Taza Grill &amp Bar (inside Four Points Sheraton Hotel)</a>
-                </div>
-            </td>
-        </tr>
-        <tr><td colspan="4"></td></tr>
     </tbody>
 </table>
+</div>
+</section>
+<section class="section-default">
+    <h2 class="section-title">Day #2</h2>
+    <p class="subline">Friday, November 4, 2016</p>
+    <div class="schedule">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Room 1</th>
+                    <th>Room 2</th>
+                    <th>Room 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>08:00-09:00</td>
+                    <td colspan="3">
+                        <span class="schedule__item">
+                            Registration - pastries, beverages and coffee available
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>09:00-10:00</td>
+                    <td colspan=3 data-label="Room 1">
+                        <span class="schedule__item">
+                            Dispelling Five Untruths About Programming
+                            <a href="speakers.php#marcotabini">Marco Tabini</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:00-11:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Business Logic Security
+                            <a href="speakers.php#iliaalshanetsky">Ilia Alshanetsky</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+			    TBD
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            The Websockets Awaken
+                            <a href="speakers.php#jeffkolesnikowicz">Jeff Kolesnikowicz</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:00-12:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Curing The Common Loop (With Collection pipelines)
+                            <a href="speakers.php#adamwathan">Adam Wathan</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Grown-up MongoDB: Schema Design
+                            <a href="speakers.php#derickrethans">Derick Rethans</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Just-In-Time Software Manufacturing
+                            <a href="speakers.php#joshbutts">Josh Butts</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12:00-13:00</td>
+                    <td colspan = 3>
+                        Lunch
+                    </td>
+                </tr>
+                <tr>
+                    <td>13:00-14:00</td>
+                    <td colspan=3>
+                        <span class="schedule__item">
+                            Grumpy And Funky Change The World
+                            <a href="speakers.php#edwardfinkler">Edward Finkler</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14:00-15:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Making CSS fun again with Sass
+                            <a href="speakers.php#evertpot">Evert Pot</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Modern SQL
+                            <a href="speakers.php#elizabethsmith">Elizabeth Smith</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Identify All The Things With UUID's!
+                            <a href="speakers.php#benramsey">Ben Ramsey</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:00-16:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Rewriting 15-Year-Old Code
+                            <a href="speakers.php#annafilina">Anna Filina</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            TBD
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Domain-driven Design Deconstructed
+                            <a href="speakers.php#andrewcassell">Andrew Cassell</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>16:00-17:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            200k+ reasons why security is a must"
+                            <a href="speakers.php#michaelangelovandam">Michaelangelo Van Dam</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Building A Developer Platform: From (o)Auth to Zen
+                            <a href="speakers.php#narakasbergen">Nara Kasbergen</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Azure Functions and App Service Linux Support
+			    <a href="speakers.php#coryfowler">Cory Fowler</a> 
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>18:00-22:00</td>
+                    <td colspan="3">
+                        <span class="schedule_item">
+                            Microsoft Azure Hackathon
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<section class="section-default">
+    <h2 class="section-title">Day #3</h2>
+    <p class="subline">Saturday, November 5, 2016</p>
+    <div class="schedule">
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Room 1</th>
+                    <th>Room 2</th>
+                    <th>Room 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00-10:00</td>
+                    <td colspan=3>
+                        <span class="schedule__item">
+                            PHP Jeopardy
+                        </span>
+                        Hosted by Jeremy Mikola
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:00-11:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Test-Driven Laravel
+                            <a href="speakers.php#adamwathan">Adam Wathan</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            WordPress Code Security
+                            <a href="speakers.php#stephaneboisvert">Stephane Boisvert</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Azure and OSS, a match made in heaven
+                            <a href="speakers.php#michaelangelovandam">Michaelangelo Van Dam</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:00-12:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Mastering OAuth 2.0 with league/oauth2-client
+                            <a href="speakers.php#benramsey">Ben Ramsey</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Keeping Eloquent Eloquent
+                            <a href="speakers.php#colindecarlo">Colin DeCarlo</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Taming The Resource Tiger
+                            <a href="speakers.php#elizabethsmith">Elizabeth Smith</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12:00-13:00</td>
+                    <td colspan=3>
+                        <span class="schedule__item">
+                            Lunch
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13:00-14:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Locate All The Things
+                            <a href="speakers.php#derickrethans">Derick Rethans</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Mutation Testing With Humbug
+                            <a href="speakers.php#marc-antoine-aubé">Marc-Antoine Aubé</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Getting Started WIth Sabre/Dav
+                            <a href="speakers.php#evertpot">Evert Pot</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14:00-15:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Create a disposable Front-End
+                            <a href="speakers.php#erictousignant">Eric Tousignant</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Drupal 8: The Crash Course
+                            <a href="speakers.php#larrygarfield">Larry Garfield</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Learn to Stop Wiring and Love Laravel's Container
+                            <a href="speakers.php#beausimensen">Beau Simensen</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15:00-16:00</td>
+                    <td data-label="Room 1">
+                        <span class="schedule__item">
+                            Manage Private Internal Dependencies With Composer and Satis
+                            <a href="speakers.php#andrewcassell">Andrew Cassell</a>
+                        </span>
+                    </td>
+                    <td data-label="Room 2">
+                        <span class="schedule__item">
+                            Pushing Git Where It Doesn't Belong
+			    <a href="speakers.php#markuslatzel">Markus Latzel</a> 
+                        </span>
+                    </td>
+                    <td data-label="Room 3">
+                        <span class="schedule__item">
+                            Deep Dive Into Browser Performance
+                            <a href="speakers.php#iliaalshanetsky">Ilia Alshanetsky</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>16:00-17:00</td>
+                    <td colspan=3>
+                        <span class="schedule__item">
+                            Last One Out Please Shut Down The Conference
+                            <a href="speakers.php#chrishartjes">Chris Hartjes</a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>17:30-close</td>
+                    <td colspan=3>
+                        <span class="schedule__item">
+                            TrueNorthPHP Social
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
